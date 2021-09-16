@@ -1,0 +1,406 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header1 {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    background-color: #65256F;
+}
+
+.header1 {
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+}
+.right {
+    display: flex;
+}
+
+.left {
+    color: #FBC70E;
+    padding-left: 130px;
+    display: flex;
+    align-items: center;
+}
+
+.right1,
+.right2 {
+    color: white;
+    display: flex;
+    align-items: center;
+}
+.right1 {
+    padding-right: 20px;
+}
+.right2 {
+    color: #FBC70E;
+    padding-right: 160px;
+}
+
+/* ---------header2 */
+
+.header2 {
+    position: relative;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header2-left {
+    display: flex;
+    align-items: center;
+    padding-left: 130px;
+}
+
+.header2-right {
+    display: flex;
+    margin-right: 10%;
+    width: 50%;
+    align-items: center;
+    justify-content: space-around;
+    font-family: "Monsterrat", sans-serif;
+    font-size: 17px;
+    
+}
+.header2-right p {
+    margin-top: 2%;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+a:hover {
+    text-decoration: underline;
+    text-decoration-color: #FFB700;
+    color: black;
+}
+
+.header2-right p a:active {
+    text-decoration: none;
+}
+
+.header2-right p:hover {
+    text-decoration: underline;
+    text-decoration-color: #FFB700;
+}
+
+.btn-downl {
+    height: 55%;
+    width: 25%;
+    background-color: #65256F;
+    color: white;
+    border-radius: 3px;
+    border: none;
+}
+ /* ----------screen1 */
+
+ .screen1 {
+     position: relative;
+     width: 100%;
+     height: 100vh;
+     background: url(../images/Rectangle\ 70.png) no-repeat center;
+     background-size: cover;
+     margin-bottom: 5%;
+ }
+
+ .text1 {
+     position: absolute;
+     left: 10%;
+     top: 29%;
+     color: white;
+ }
+
+ .shadow {
+    width: 100%;
+    height: 100%;
+    backdrop-filter: brightness(0.3);
+}
+
+.sub-text1 {
+    font-size: 53px;
+    font-family: sans-serif;
+    margin-bottom: 3%;
+}
+
+.sub-text2 {
+    font-size: 24px;
+    font-family: sans-serif;
+    font-weight: 100;
+    margin-top: 5%;
+}
+
+.btn-zayavka {
+    width: 38%;
+    height: 40px;
+    background-color: #FFC957;
+    margin-top: 7%;
+
+}
+
+h2 {
+    text-align: center;
+    position: relative;
+    font-size: 33px;
+    font-weight: 100;
+    font-family: sans-serif;
+}
+h2::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 40%;
+    height: 2px;
+    background-color: #BEBEBE;
+}
+h2::after {
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 50%;
+    width: 40%;
+    height: 2px;
+    background-color: #BEBEBE;
+}
+
+.img-block {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.img1 {
+    position: relative;
+    height: 380px;
+    width: 250px;
+    box-shadow: 0px 0px 19px 7px rgba(0, 0, 0, 0.05);
+    
+}
+
+.img1 img {
+    width: 65%;
+    margin-left: 14%;
+    margin-top: 22%;
+    margin-bottom: 10%;
+}
+.numb{
+    color: #753ED6;
+}
+
+.img1 p {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.konsruk {
+    margin-bottom: 5%;
+}
+
+.telefon {
+    margin-bottom: 15%;
+}
+
+/* --------screen3 */
+
+.screen3,
+.screen4,
+.screen5,
+.screen6,
+.screen7,
+.screen8,
+.footer {
+    position: relative;
+    width: 100%;
+
+
+}
+
+
+.img-block2 img {
+    width: 100%;
+    margin-bottom: 12%;
+    filter: brightness(40%);
+}
+
+
+.img-block2 p {
+    position: absolute;
+    z-index: 4;
+    margin-top: -8%;
+    margin-left: 3%;
+    color: white;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+.btn3 {
+    width: 24%;
+    height: 40px;
+    background-color: #65256F;
+    color: white;
+    margin-left: 38%;
+    border: none;
+    margin-top: -5%;
+    margin-bottom: 5%;
+}
+
+.img-block3 {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10%;
+    margin-top: 3%;
+    margin-bottom: 5%;
+}
+
+.img-block3 img {
+    width: 30%;
+}
+.img-block4 img {
+    width: 100%;
+    height: 280px;
+
+}
+
+.img-block4 {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 80%;
+    margin:5% auto 0; 
+    margin-bottom: -3%;
+}
+.img-block4 div{
+    flex: 0 1 23%;
+}
+
+.img-block4 p {
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: 100;
+}
+
+.som {
+    color: #4C1F8C;
+    font-weight: 500;
+}
+
+.screen5 button {
+    margin-top: 5%;
+}
+
+.img-block6 {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+/* -------screen7 */
+
+.img-block7 {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 80%;
+    margin:5% auto 0; 
+    margin-bottom: 3%;
+}
+.img-block7 div{
+    flex: 0 1 30%;
+}
+
+.img-block7 img {
+    width: 100%;
+    height: 380px;
+}
+
+.name {
+    font-size: 25px;
+    font-family: sans-serif;
+    font-weight: 400;
+    margin-top: 3%;
+}
+
+.position {
+    color: #6F6C6C;
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: 200;
+    margin-top: 3%;
+}
+
+.screen8-text1 {
+    margin-left: 35%;
+    margin-top: 6%;
+    width: 20%;
+    height: 20px;
+}
+
+.screen8-text2 {
+    margin-left: 29%;
+    margin-top: 2%;
+}
+
+.screen8-text3 {
+    margin-left: 17%;
+    margin-bottom: 3%;
+}
+
+.footer {
+    height: 300px;
+    background-color: #3A3A3A;
+}
+
+
+.text-block8 {
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    font-family: sans-serif;
+    margin-left: 7%;
+    margin-right: 9%;
+}
+
+.text-block8 div {
+    margin-top: 5%;
+}
+
+.text-block8 p {
+    color: #BCBBBB;
+    margin-top: 4%;
+    font-size: 12px;
+    font-weight: 200;
+    line-height: 23px;
+}
+
+.text-block8 div h6 {
+    font-size: 12px;
+}
+
+.text-block8 h4 {
+    font-weight: 400;
+}
+
+.lorem {
+    margin-top: -5%;
+}
+
+.h6 {
+    font-size: 8px;
+    margin-bottom: 8%;
+}
+
